@@ -8,7 +8,7 @@ Requirements:
       * e.g.: https://amzn.eu/d/6pVJu65
       * e.g.: https://amzn.eu/d/0JR6dhz
       * it doesn't matter which kind of strips you use, as long as they are WS2812b (5 volts)
-      * length: 1.40 m, if you use WS2812b with 60 LED's/m you need 84 pixel of your strip
+      * length: 1.40 m, if you use WS2812b with 60 LED's/m you need 84 pixel of your strip but also strips with more or less LED's/m are possible
       * every USB 5V power supply with at least 2 A (2000 mA) are okay
       * USB-C cable between power supply and LED controller
   * Network:
