@@ -19,3 +19,6 @@ Requirements:
       * PC, laptop, tablet, smartphone etc
       * to configure the LED controller you need an actual browser on your device
       * your device has to be connected to the same WiFi network as your X1C and your LED controller
+   * X1C Firmware:
+      * >= 1.04
+
