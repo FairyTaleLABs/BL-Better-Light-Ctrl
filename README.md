@@ -6,7 +6,7 @@
 
 Unfortunately, the factory lighting of the X1C is not sufficient to illuminate the printer space properly. The X1C LED controller provides significantly improved illumination, as well as visual signaling when the status of the printer changes (e.g. in the event of errors or when printing has been successfully completed). 
 
-The LED controller is supplied with 5V and can drive LED strips of type WS2812b accordingly. To do this, the 3D printer and the LED controller are connected to the same WiFi so that the LED controller can communicate with the 3D printer. The controller detects status changes and set the LED lighting accordingly: 
+The LED controller is supplied with 5V, can drive LED strips of type WS2812b accordingly and based on a ESP32 microcontroller. To do this, the 3D printer and the LED controller are connected to the same WiFi so that the LED controller can communicate with the 3D printer. The controller detects status changes and set the LED lighting accordingly: 
   * white = normal working light
   * red = printer error
   * green = print successfully completed
