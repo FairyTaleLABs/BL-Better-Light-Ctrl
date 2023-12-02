@@ -34,4 +34,4 @@ When the printer is switched off, the LED lighting also switches off and therefo
    * X1C Firmware:
       * at least version 1.04
 
-[Fancy link](wiki#functionality-and-intended-use)
+[Fancy link](#functionality-and-intended-use)
