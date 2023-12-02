@@ -2,7 +2,7 @@
 <img src="https://github.com/FairyTaleLABs/blx1cledctrl/assets/76262830/2e49f325-7b0c-42e8-a985-115b8faf4b5d" width="50%" height="50%"> 
 
 ***
-### Functionality and intended use
+### Functionality and intended use:
 
 Unfortunately, the factory lighting of the X1C is not sufficient to illuminate the printer space properly. The X1C LED controller provides significantly improved illumination, as well as visual signaling when the status of the printer changes (e.g. in the event of errors or when printing has been successfully completed). 
 
