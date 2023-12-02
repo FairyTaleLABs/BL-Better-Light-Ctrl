@@ -1,14 +1,17 @@
 # BL X1C LED Controller
-<img src="https://github.com/FairyTaleLABs/blx1cledctrl/assets/76262830/2e49f325-7b0c-42e8-a985-115b8faf4b5d" width="50%" height="50%"> 
+<p align="center">
+ 
+<img align="center" src="https://github.com/FairyTaleLABs/blx1cledctrl/assets/76262830/2e49f325-7b0c-42e8-a985-115b8faf4b5d" width="50%" height="50%"> 
+</p>
 
 ***
 ### Tabele of content:
-[Functionality and intended use](#functionality-and-intended-use)
+[1. Functionality and intended use](#functionality-and-intended-use)
 
-[Requirements](#requirements)
+[2. Requirements](#requirements)
 
 ***
-### Functionality and intended use:
+### 1. Functionality and intended use:
 
 Unfortunately, the factory lighting of the X1C is not sufficient to illuminate the printer space properly. The X1C LED controller provides significantly improved illumination, as well as visual signaling when the status of the printer changes (e.g. in the event of errors or when printing has been successfully completed). 
 
@@ -19,7 +22,7 @@ The LED controller is supplied with 5V, can drive LED strips of type WS2812b acc
 
 When the printer is switched off, the LED lighting also switches off and therefore the LED controller does not need to be disconnected from the power supply separately. The LED lighting also switches on when the printer is switched on. In addition, the LED lighting can be switched on or off via the printer display. 
 ***
-### Requirements:
+### 2. Requirements:
 
   * WS2812b LED's (normal strips or neon led strip):
       * e.g.: https://amzn.eu/d/6pVJu65
