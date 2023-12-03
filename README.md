@@ -6,9 +6,9 @@
 
 ***
 ### Tabele of content:
-[1. Functionality and intended use](#functionality-and-intended-use)
+[1. Functionality and intended use](#1-functionality-and-intended-use)
 
-[2. Requirements](#requirements)
+[2. Requirements](#2-requirements)
 
 ***
 ### 1. Functionality and intended use:
