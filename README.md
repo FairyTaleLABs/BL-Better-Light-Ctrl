@@ -23,9 +23,9 @@
 ***
 ### 1. Functionality and intended use:
 
-Unfortunately, the factory lighting of the X1C is not sufficient to illuminate the printer space properly. The X1C LED controller provides significantly improved illumination, as well as visual signaling when the status of the printer changes (e.g. in the event of errors or when printing has been successfully completed). 
+Unfortunately, the factory lighting of the X1, X1C, P1P and P1S is not sufficient to illuminate the printer space properly. The "BL Better Light" LED controller provides significantly improved illumination, as well as visual signaling when the status of the printer changes (e.g. in the event of errors or when printing has been successfully completed). 
 
-The LED controller is supplied with 5V, can drive LED strips of type WS2812b accordingly and based on a ESP32 microcontroller. To do this, the 3D printer and the LED controller are connected to the same WiFi so that the LED controller can communicate with the 3D printer. The controller detects status changes and set the LED lighting accordingly: 
+The "BL Better Light" LED controller is supplied with 5V, can drive LED strips of type WS2812b accordingly and based on a ESP32 microcontroller. To do this, the 3D printer and the LED controller are connected to the same WiFi so that the LED controller can communicate with the 3D printer. The controller detects status changes and set the LED lighting accordingly: 
   * white = normal working light
   * red = printer error
   * green = print successfully completed
@@ -43,15 +43,15 @@ When the printer is switched off, the LED lighting also switches off and therefo
       * USB-C cable between power supply and LED controller
   * Network:
       * your 3D printer has to be connected with a WiFi network
-      * the LED Controller has to be connected to the same WiFi network as your X1C
+      * the "BL Better Light" Controller has to be connected to the same WiFi network as your 3D printer
       * without WiFi it is not possible to use the LED controller
   * Configuration devices:
       * PC, laptop, tablet, smartphone etc
       * to configure the LED controller you need an actual browser on your device
-      * your device has to be connected to the same WiFi network as your X1C and your LED controller
+      * your device has to be connected to the same WiFi network as your 3D printer and your "BL Better Light" LED controller
       * in very rare cases micro USB cable to re-programming the microcontroller
-   * X1C Firmware:
-      * at least version 1.04
+   * Firmware:
+      * at least version 1.04 for X1C
 ***
 ### 3. Preliminaries:
 
@@ -89,7 +89,7 @@ When the printer is switched off, the LED lighting also switches off and therefo
        </p>
 
        * Observe the labeling on the housing or circuit board and connect the LED strip accordingly. Please be careful and do not mix up the connections. This could damage the circuit board and/or the LED strip. Refer to the datasheet of your LED strip to find the correct cable assignment. 
-   * connect a USB power supply to the LED Controller with an USB-C cable:
+   * connect a USB power supply to the "BL better light" LED Controller with an USB-C cable:
        <p align="center">
        <img align="center" src="https://github.com/FairyTaleLABs/blx1cledctrl/assets/76262830/0af45f8e-ff0c-4aeb-bfd0-d268da5a00af" width="40%" height="40%"> 
        </p>
