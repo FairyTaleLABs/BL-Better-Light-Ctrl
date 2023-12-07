@@ -1,4 +1,4 @@
-# BL X1C LED Controller
+# BL Better Light Ctrl
 ## (INSTRUCTION ARE NOT YET COMPLETE,  WORK IN PROGRESS, STATE: 2023-12-07)
 <p align="center">
 <img align="center" src="https://github.com/FairyTaleLABs/blx1cledctrl/assets/76262830/9bfa1fce-3ea2-40f1-b9a7-e0c6704c8666" width="40%" height="40%"> 
@@ -42,7 +42,7 @@ When the printer is switched off, the LED lighting also switches off and therefo
       * every USB 5V power supply with at least 2 A (2000 mA) are okay
       * USB-C cable between power supply and LED controller
   * Network:
-      * your X1C has to be connected with a WiFi network
+      * your 3D printer has to be connected with a WiFi network
       * the LED Controller has to be connected to the same WiFi network as your X1C
       * without WiFi it is not possible to use the LED controller
   * Configuration devices:
