@@ -1,11 +1,11 @@
 # BL Better Light Ctrl
 ## (INSTRUCTION ARE NOT YET COMPLETE,  WORK IN PROGRESS, STATE: 2023-12-07)
 <p align="center">
-<img align="center" src="https://github.com/FairyTaleLABs/blbetterlightctrl/assets/76262830/9bfa1fce-3ea2-40f1-b9a7-e0c6704c8666" width="40%" height="40%"> 
-<img align="center" src="https://github.com/FairyTaleLABs/blbetterlightctrl/assets/76262830/000cd657-9c07-48bb-b9d5-f1f4415afc8f" width="40%" height="40%"> 
+<img align="center" src="https://github.com/FairyTaleLABs/BL-Better-Light-Ctrl/assets/76262830/9bfa1fce-3ea2-40f1-b9a7-e0c6704c8666" width="40%" height="40%"> 
+<img align="center" src="https://github.com/FairyTaleLABs/BL-Better-Light-Ctrl/assets/76262830/000cd657-9c07-48bb-b9d5-f1f4415afc8f" width="40%" height="40%"> 
 </p>
 <p align="center">
-<img align="center" src="https://github.com/FairyTaleLABs/blbetterlightctrl/assets/76262830/467b2e95-0ed1-4c9a-a575-414aa159ab06" width="40%" height="40%"> 
+<img align="center" src="https://github.com/FairyTaleLABs/BL-Better-Light-Ctrl/assets/76262830/467b2e95-0ed1-4c9a-a575-414aa159ab06" width="40%" height="40%"> 
 </p>
 
 ***
@@ -63,7 +63,7 @@ When the printer is switched off, the LED lighting also switches off and therefo
     
       You will find IP address and access code of your 3D printer as followed:
        <p align="center">
-       <img align="center" src="https://github.com/FairyTaleLABs/blbetterlightctrl/assets/76262830/01f745b6-b94b-4b68-9bfd-8c041db4d3d1" width="40%" height="40%"> 
+       <img align="center" src="https://github.com/FairyTaleLABs/BL-Better-Light-Ctrl/assets/76262830/01f745b6-b94b-4b68-9bfd-8c041db4d3d1" width="40%" height="40%"> 
        </p>
        
        * press SETTINGS button as marked as point 1
@@ -74,7 +74,7 @@ When the printer is switched off, the LED lighting also switches off and therefo
 
       You will find the serial no of your 3D printer as followed:
        <p align="center">
-       <img align="center" src="https://github.com/FairyTaleLABs/blbetterlightctrl/assets/76262830/d6c11df7-82d1-4ce1-abbc-8427a67540bf" width="40%" height="40%"> 
+       <img align="center" src="https://github.com/FairyTaleLABs/BL-Better-Light-Ctrl/assets/76262830/d6c11df7-82d1-4ce1-abbc-8427a67540bf" width="40%" height="40%"> 
        </p>
 
        * press SETTINGS button as marked as point 1
@@ -85,13 +85,13 @@ When the printer is switched off, the LED lighting also switches off and therefo
    * connect your WS2812B LED strip to the LED Controller:
 
        <p align="center">
-       <img align="center" src="https://github.com/FairyTaleLABs/blbetterlightctrl/assets/76262830/860bbfa9-f963-47f2-86aa-7aba6310ec0d" width="40%" height="40%"> 
+       <img align="center" src="https://github.com/FairyTaleLABs/BL-Better-Light-Ctrl/assets/76262830/860bbfa9-f963-47f2-86aa-7aba6310ec0d" width="40%" height="40%"> 
        </p>
 
        * Observe the labeling on the housing or circuit board and connect the LED strip accordingly. Please be careful and do not mix up the connections. This could damage the circuit board and/or the LED strip. Refer to the datasheet of your LED strip to find the correct cable assignment. 
    * connect a USB power supply to the "BL better light" LED Controller with an USB-C cable:
        <p align="center">
-       <img align="center" src="https://github.com/FairyTaleLABs/blbetterlightctrl/assets/76262830/0af45f8e-ff0c-4aeb-bfd0-d268da5a00af" width="40%" height="40%"> 
+       <img align="center" src="https://github.com/FairyTaleLABs/BL-Better-Light-Ctrl/assets/76262830/0af45f8e-ff0c-4aeb-bfd0-d268da5a00af" width="40%" height="40%"> 
        </p>
 
        * You can use every commercially available power supply unit with at least 2A of current. If you use a power supply unit with less than 2A, color deviations may occur on the LED strip or not all LEDs will light up.
