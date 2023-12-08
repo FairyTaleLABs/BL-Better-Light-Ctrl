@@ -26,7 +26,7 @@
 
 [8. Operating states](#8-operating-states)
 
-[9. Firmware update / manual flashing](#9firmware-update-manual-flashing)
+[9. Firmware update / manual flashing](#9-firmware-update-manual-flashing)
 
 ***
 ### 1. Functionality and intended use:
