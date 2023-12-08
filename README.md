@@ -154,7 +154,7 @@ When the printer is switched off, the LED lighting also switches off and therefo
    * during the printing process, the light will go out in certain phases not to influence the LiDAR measurements
    * if there is any error during the printing process your LED strip will light up red, it will go back to white if the error no longer exists
    * if the printing process has been successfully completed, your LED strip will light up green, after 10 minutes it will go back to white
-   * The light can be switched off or on manually via the printer display and/or in your . If the light has been switched off via the display, there is also no visual signaling in the event of an error or success:
+   * The light can be switched off or on manually via the printer display and/or in your Bambu App on your smartphone. If the light has been switched off via the display, there is also no visual signaling in the event of an error or success:
        <p align="center">
        <img align="center" src="https://github.com/FairyTaleLABs/BL-Better-Light-Ctrl/assets/76262830/77733627-c515-4865-9827-4f3e8daf2833" width="40%" height="40%"> 
        <img align="center" src="https://github.com/FairyTaleLABs/BL-Better-Light-Ctrl/assets/76262830/03f6f572-2f33-448f-93f8-689e65de49f2" width="40%" height="40%"> 
