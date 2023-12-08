@@ -20,6 +20,8 @@
 
 [5. Connect to WiFi](#5-connect-to-wifi)
 
+[6. set 3D printer data](#6-set-3d-printer-data)
+
 ***
 ### 1. Functionality and intended use:
 
@@ -120,7 +122,23 @@ When the printer is switched off, the LED lighting also switches off and therefo
    * if everything is correct your "BL Better Light" LED controller, your 3D printer and your browser device (e.g. PC, laptop, smartphone, tablet) should be in the same network
 
 ### 6. set 3D printer data
+   * complete step 5 (Connect to WiFi)
+   * connect your "BL Better Light" LED controller with your power supply with an USB-C cable if it is not anymore
+   * the red led should light up
+   * navigate to the website http://blbetterlightctrl.local/ (this will not working in Android) or alternative http://<ip-address-of-your-led-controller/ (e.g. http://192.168.1.55), refer to the manual of your router if you need help to find this IP address
+   * the configuration page should appear:
+       <p align="center">
+       <img align="center" src="https://github.com/FairyTaleLABs/BL-Better-Light-Ctrl/assets/76262830/4586630b-f151-4bc3-96d2-374d5bf98f09" width="40%" height="40%"> 
+       </p>
+       
+   * you will need the information you noted in step 3 (Preliminaries)
+   * type in the needed information for your 3D printer (IP address, access code, serial number)
+   * also type in the type of your LED strip (color order, LED brightness in percent, amount of LED/pixel), refer to the datasheet of your LED strip to find the correct color order, if you set the wrong color order the colors will be wrong
+   * click on SAVE ALL
+   * your "BL Better Light" LE controller will now reboot
+   * you can call up the setup page again at any time to change the data (e.g. if you misstyped something or if you want to change the type of your LED strip and so on)
 
+     
 
 ...... 
 WORK IN PROGRESS
