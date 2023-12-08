@@ -171,7 +171,7 @@ When the printer is switched off, the LED lighting also switches off and therefo
        <img align="center" src="https://github.com/FairyTaleLABs/BL-Better-Light-Ctrl/assets/76262830/03f6f572-2f33-448f-93f8-689e65de49f2" width="40%" height="40%"> 
        </p>
        <p align="center">
-       <img align="center" src="https://github.com/FairyTaleLABs/BL-Better-Light-Ctrl/assets/76262830/17c00433-0018-44ec-bb8f-f5c76a3ca8d3" width="40%" height="40%"> 
+       <img align="center" src="https://github.com/FairyTaleLABs/BL-Better-Light-Ctrl/assets/76262830/17c00433-0018-44ec-bb8f-f5c76a3ca8d3" width="30%" height="30%"> 
        </p>
 ***
 ### 9. Firmware update and manual flashing
