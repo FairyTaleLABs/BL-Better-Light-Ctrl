@@ -24,6 +24,8 @@
 
 [7. start-up](#7-start-up)
 
+[8. Operating states](#8-operating-states)
+
 ***
 ### 1. Functionality and intended use:
 
@@ -146,7 +148,20 @@ When the printer is switched off, the LED lighting also switches off and therefo
    * the red led should light up
    * The "BL Better Light" LED controller performs an initial light sequence when switched on, the sequence of colors is RED to GREEN to BLUE. If you see a different sequence, you have set an incorrect color order on the setup page. Go back to the setup page (under point 6) and set the correct color order of your LED strip.
    * After the initial LED sequence the blue LED at the "BL Better Light" LED controller should light up. If not you have set the wrong 3D printer credentials (IP address or access code or serial no) on the setup page. Go back to the setup page (under point 6), check and set the correct values for your 3D printer
-
+***
+### 8. Operating states
+   * after start up the LED should light up warm white and illuminate your printer chamber
+   * during the printing process, the light will go out in certain phases not to influence the LiDAR measurements
+   * if there is any error during the printing process your LED strip will light up red, it will go back to white if the error no longer exists
+   * if the printing process has been successfully completed, your LED strip will light up green, after 10 minutes it will go back to white
+   * The light can be switched off or on manually via the printer display and/or in your . If the light has been switched off via the display, there is also no visual signaling in the event of an error or success:
+       <p align="center">
+       <img align="center" src="https://github.com/FairyTaleLABs/BL-Better-Light-Ctrl/assets/76262830/77733627-c515-4865-9827-4f3e8daf2833" width="40%" height="40%"> 
+       <img align="center" src="https://github.com/FairyTaleLABs/BL-Better-Light-Ctrl/assets/76262830/03f6f572-2f33-448f-93f8-689e65de49f2" width="40%" height="40%"> 
+       </p>
+       <p align="center">
+       <img align="center" src="https://github.com/FairyTaleLABs/BL-Better-Light-Ctrl/assets/76262830/17c00433-0018-44ec-bb8f-f5c76a3ca8d3" width="40%" height="40%"> 
+       </p>
 
 ...... 
 WORK IN PROGRESS
