@@ -26,7 +26,7 @@
 
 [8. Operating states](#8-operating-states)
 
-[9. Firmware update / manual flashing](#9-firmware-update-manual-flashing)
+[9. Firmware update / manual flashing](#9-firmware-update-and-manual-flashing)
 
 ***
 ### 1. Functionality and intended use:
@@ -174,6 +174,6 @@ When the printer is switched off, the LED lighting also switches off and therefo
        <img align="center" src="https://github.com/FairyTaleLABs/BL-Better-Light-Ctrl/assets/76262830/17c00433-0018-44ec-bb8f-f5c76a3ca8d3" width="40%" height="40%"> 
        </p>
 ***
-### 9. Firmware update / manual flashing
+### 9. Firmware update and manual flashing
 ...... 
 WORK IN PROGRESS
