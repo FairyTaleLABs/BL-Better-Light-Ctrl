@@ -22,6 +22,8 @@
 
 [6. set 3D printer data](#6-set-3d-printer-data)
 
+[7. start-up](#7-start-up)
+
 ***
 ### 1. Functionality and intended use:
 
@@ -120,7 +122,7 @@ When the printer is switched off, the LED lighting also switches off and therefo
    * your "BL Better Light" LE controller will now reboot
    * the access point "BL Better Light Ctrl SETUP" will disappear after reboot if your WiFi credentials are correct, if not start from the beginning
    * if everything is correct your "BL Better Light" LED controller, your 3D printer and your browser device (e.g. PC, laptop, smartphone, tablet) should be in the same network
-
+***
 ### 6. set 3D printer data
    * complete step 5 (Connect to WiFi)
    * connect your "BL Better Light" LED controller with your power supply with an USB-C cable if it is not anymore
@@ -137,8 +139,14 @@ When the printer is switched off, the LED lighting also switches off and therefo
    * click on SAVE ALL
    * your "BL Better Light" LE controller will now reboot
    * you can call up the setup page again at any time to change the data (e.g. if you misstyped something or if you want to change the type of your LED strip and so on)
+***
+### 7. start-up
+   * complete step 5 (Connect to WiFi) and step 6 (set 3D printer data)
+   * connect your "BL Better Light" LED controller with your power supply with an USB-C cable if it is not anymore
+   * the red led should light up
+   * The "BL Better Light" LED controller performs an initial light sequence when switched on, the sequence of colors is RED to GREEN to BLUE. If you see a different sequence, you have set an incorrect color order on the setup page. Go back to the setup page (under point 6) and set the correct color order of your LED strip.
+   * After the initial LED sequence the blue LED at the "BL Better Light" LED controller should light up. If not you have set the wrong 3D printer credentials (IP address or access code or serial no) on the setup page. Go back to the setup page (under point 6), check and set the correct values for your 3D printer
 
-     
 
 ...... 
 WORK IN PROGRESS
