@@ -1,5 +1,5 @@
 # BL Better Light Ctrl
-## (INSTRUCTION ARE NOT YET COMPLETE,  WORK IN PROGRESS, STATE: 2023-12-07)
+## (INSTRUCTION ARE NOT YET COMPLETE,  WORK IN PROGRESS, STATE: 2023-12-08)
 <p align="center">
 <img align="center" src="https://github.com/FairyTaleLABs/BL-Better-Light-Ctrl/assets/76262830/9bfa1fce-3ea2-40f1-b9a7-e0c6704c8666" width="40%" height="40%"> 
 <img align="center" src="https://github.com/FairyTaleLABs/BL-Better-Light-Ctrl/assets/76262830/000cd657-9c07-48bb-b9d5-f1f4415afc8f" width="40%" height="40%"> 
@@ -97,6 +97,30 @@ When the printer is switched off, the LED lighting also switches off and therefo
        * You can use every commercially available power supply unit with at least 2A of current. If you use a power supply unit with less than 2A, color deviations may occur on the LED strip or not all LEDs will light up.
 ***
 ### 5. Connect to WiFi:
+   * connect your "BL Better Light" LED controller with your power supply with an USB-C cable
+   * the red led should light up
+   * the "BL Better Light" LED controller will establish an own WiFi access point
+   * search and connect to the WiFi access point "BL Better Light Ctrl SETUP", no password needed
+   * after the connection is successful, navigate to the website http://192.168.4.1 with an actual browser of your choice
+   * the following website should now open:
+       <p align="center">
+       <img align="center" src="https://github.com/FairyTaleLABs/BL-Better-Light-Ctrl/assets/76262830/c101a7ed-04a5-4839-b0e7-54f150d3ccf0" width="40%" height="40%"> 
+       </p>
+       
+   * click on CONFIGURE WIFI, the following page should now open:
+       <p align="center">
+       <img align="center" src="https://github.com/FairyTaleLABs/BL-Better-Light-Ctrl/assets/76262830/e03c6f6c-ab89-4fd9-9d8b-40f99dc4dc8e" width="40%" height="40%"> 
+       </p>
+
+   * click on the WiFi network you want to connect to or type in the SSID manually, it has to be the same network which your 3D printer is connected with
+   * type in your WiFi password credentials
+   * click on SAVE
+   * your "BL Better Light" LE controller will now reboot
+   * the access point "BL Better Light Ctrl SETUP" will disappear after reboot if your WiFi credentials are correct, if not start from the beginning
+   * if everything is correct your "BL Better Light" LED controller, your 3D printer and your browser device (e.g. PC, laptop, smartphone, tablet) should be in the same network
+
+### 6. set 3D printer data
+
 
 ...... 
 WORK IN PROGRESS
