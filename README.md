@@ -37,6 +37,15 @@ The "BL Better Light" LED controller is supplied with 5V, can drive LED strips o
   * green = print successfully completed
 
 When the printer is switched off, the LED lighting also switches off and therefore the LED controller does not need to be disconnected from the power supply separately. The LED lighting also switches on when the printer is switched on. In addition, the LED lighting can be switched on or off via the printer display. 
+  <p align="center">
+  <img align="center" src="https://github.com/FairyTaleLABs/BL-Better-Light-Ctrl/assets/76262830/82933dbc-6a0b-4277-8730-78f9487e93cc" width="30%" height="30%"> 
+  <img align="center" src="https://github.com/FairyTaleLABs/BL-Better-Light-Ctrl/assets/76262830/6529b5d5-3a9d-4e01-9d8c-58f37a589566" width="30%" height="30%"> 
+  <img align="center" src="https://github.com/FairyTaleLABs/BL-Better-Light-Ctrl/assets/76262830/f643f6f0-2e3c-4713-9d7b-529004764e8d" width="30%" height="30%"> 
+  </p>
+  <p align="center">
+  <img align="center" src="https://github.com/FairyTaleLABs/BL-Better-Light-Ctrl/assets/76262830/b8c348f6-77eb-48dc-9592-2ccd2ea1fa62" width="30%" height="30%"> 
+  </p>
+
 ***
 ### 2. Requirements:
 
