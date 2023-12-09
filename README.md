@@ -1,5 +1,4 @@
 # BL Better Light Ctrl
-## (INSTRUCTION ARE NOT YET COMPLETE,  WORK IN PROGRESS, STATE: 2023-12-09)
 <p align="center">
 <img align="center" src="https://github.com/FairyTaleLABs/BL-Better-Light-Ctrl/assets/76262830/9bfa1fce-3ea2-40f1-b9a7-e0c6704c8666" width="40%" height="40%"> 
 <img align="center" src="https://github.com/FairyTaleLABs/BL-Better-Light-Ctrl/assets/76262830/000cd657-9c07-48bb-b9d5-f1f4415afc8f" width="40%" height="40%"> 
@@ -28,11 +27,14 @@
 
 [9. Firmware update OTA](#9-firmware-update-ota)
 
-[10. Firmware update manual flash](#9-firmware-update-manual-flash)
+[10. Firmware update manual flash](#10-firmware-update-manual-flash)
+
+[11. Remote (soft)reboot](#11-remote-softreboot)
+
+[12. ReConfigure WiFi Settings](#12-reconfigure-wifi-settings)
 
 ***
 ### 1. Functionality and intended use:
-
 Unfortunately, the factory lighting of the X1, X1C, P1P and P1S is not sufficient to illuminate the printer space properly. The "BL Better Light" LED controller provides significantly improved illumination, as well as visual signaling when the status of the printer changes (e.g. in the event of errors or when printing has been successfully completed). 
 
 The "BL Better Light" LED controller is supplied with 5V, can drive LED strips of type WS2812b accordingly and based on a ESP32 microcontroller. To do this, the 3D printer and the LED controller are connected to the same WiFi so that the LED controller can communicate with the 3D printer. The controller detects status changes and set the LED lighting accordingly: 
@@ -52,7 +54,6 @@ When the printer is switched off, the LED lighting also switches off and therefo
 
 ***
 ### 2. Requirements:
-
   * WS2812b LED's (normal strips or neon led strip):
       * e.g.: https://amzn.eu/d/6pVJu65
       * e.g.: https://amzn.eu/d/0JR6dhz
@@ -203,6 +204,12 @@ Under normal circumstances, it is not necessary to (re)flash the firmware manual
    * after the flash process is successfully completed, disconnect the MICRO-USB cable and reassemble your "BL Better Light" LED controller
    * USE THE INTERNET SEARCH IF YOU HAVE ANY PROBLEMS WITH THE MANUAL FLASH PROCESS
    * !!! The prefered update method is by uploading the .bin file as described in step 9 above !!!
-
-...... 
-WORK IN PROGRESS
+***
+### 11. Remote (soft)reboot
+   * to reboot your "BL Better Light" LED controller navigate to the page http://blbetterlightctrl.local/reboot (this will not working in Android) or alternative http://<ip-address-of-your-led-controller/reboot (e.g. http://192.168.1.55/reboot)
+   * your controller will reboot immediately, there is no prior confirmation prompt
+***
+### 12. ReConfigure WiFi Settings
+   * to reconfigure your WiFi settings of your "BL Better Light" LED controller(e.g. you want to connect to another WiFi network) navigate to the page http://blbetterlightctrl.local/erasewifi (this will not working in Android) or alternative http://<ip-address-of-your-led-controller/erasewifi (e.g. http://192.168.1.55/erasewifi)
+   * your controller will erase the saved wifi credentials immediately, there is no prior confirmation prompt
+   * after this step you have to reconfigure your WiFi as described in step 5 above, the controller will establish the WiFi configuration access point "BL Better Light Ctrl SETUP"
