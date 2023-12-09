@@ -28,6 +28,8 @@
 
 [9. Firmware update OTA](#9-firmware-update-ota)
 
+[10. Firmware update manual flash](#9-firmware-update-manual-flash)
+
 ***
 ### 1. Functionality and intended use:
 
@@ -176,7 +178,18 @@ When the printer is switched off, the LED lighting also switches off and therefo
    * click on "CHOOSE FILE" and open the .bin file you downloaded before
    * click on "UPDATE"
    * the controller will now update the firmware and reboot afterwards
-
+***
+### 10. Firmware update manual flash
+Under normal circumstances, it is not necessary to (re)flash the firmware manually. The controller is based on an ESP32. This means that you can of course also use and flash other programs. If, for whatever reason, you need to reflash the firmware, you can find the appropriate .bin file here: https://github.com/FairyTaleLABs/BL-Better-Light-Ctrl/ inside the FIRMWARE folder. You can also flash the .bin file to an ESP32 of your choice if you do not have or do not want to use the "BL Better Light" board. You need the .bin file named with firmware_x.xx_factory.bin (x.xx stands for the firmware version). Don't try to manualy (re)flash the other .bin file firmware_x.xx_OTA.bin. After that your "BL Better Light" LED controller will not boot up correctly. Only the firmware_x.xx_factory.bin has all additional information (partition, eeprom etc). After (re)flash you have to configure the "BL Better Light" Controller from beginning on. 
+   * disconnect every cables and plugs from your "BL Better Light" LED controller
+   * open your "BL Better Light" LED controller and take out the PCB board
+   * install the needed CP210x driver, you will find the suitable driver for Windows or Mac OS also inside the FIRMWARE folder on https://github.com/FairyTaleLABs/BL-Better-Light-Ctrl/
+   * in addition download the needed flash software (Windows only) inside the FIRMWARE folder on https://github.com/FairyTaleLABs/BL-Better-Light-Ctrl/, you can use other flash tools for ESP32 if you want
+   * PLEASE NOTE: please use the internet search if you have problems to install the driver or with the use of the flash software
+   * connect the pcb board with a MICRO USB cable as shown in the picture below:
+       <p align="center">
+       <img align="center" src="https://github.com/FairyTaleLABs/BL-Better-Light-Ctrl/assets/76262830/e9d3dd19-9c85-493e-b963-c94c59c8c54f" width="40%" height="40%">
+       </p>
 
 ...... 
 WORK IN PROGRESS
