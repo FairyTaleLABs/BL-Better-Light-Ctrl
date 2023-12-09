@@ -71,46 +71,38 @@ When the printer is switched off, the LED lighting also switches off and therefo
       * at least version 1.04 for X1C
 ***
 ### 3. Preliminaries:
-
    * WiFi access credentials from the WiFi to which your 3D printer is connected
    * You need several infos of your 3D printer:
       * IP address of your 3D printer (refer to the screenshots below)
       * access code of your 3D printer (refer to the screenshots below)
       * serial no of your 3D printer (refer to the screenshots below)
-    
       You will find IP address and access code of your 3D printer as followed:
        <p align="center">
        <img align="center" src="https://github.com/FairyTaleLABs/BL-Better-Light-Ctrl/assets/76262830/01f745b6-b94b-4b68-9bfd-8c041db4d3d1" width="40%" height="40%"> 
        </p>
-       
        * press SETTINGS button as marked as point 1
        * press NETWORK button as marked as point 2
        * under point 3 you will find the WiFi network to which your printer is connected. You will need to use the same WiFi later to connect your LED controller. 
        * note down the access code as marked as point 4
        * note down the IP address of your 3D printer as marked as point 5
-
       You will find the serial no of your 3D printer as followed:
        <p align="center">
        <img align="center" src="https://github.com/FairyTaleLABs/BL-Better-Light-Ctrl/assets/76262830/d6c11df7-82d1-4ce1-abbc-8427a67540bf" width="40%" height="40%"> 
        </p>
-
        * press SETTINGS button as marked as point 1
        * press GENERAL button as marked as point 2
        * note down the serial number as marked as point 3
 ***
 ### 4. Connect to power supply and LED strip:
    * connect your WS2812B LED strip to the LED Controller:
-
        <p align="center">
        <img align="center" src="https://github.com/FairyTaleLABs/BL-Better-Light-Ctrl/assets/76262830/860bbfa9-f963-47f2-86aa-7aba6310ec0d" width="40%" height="40%"> 
        </p>
-
        * Observe the labeling on the housing or circuit board and connect the LED strip accordingly. Please be careful and do not mix up the connections. This could damage the circuit board and/or the LED strip. Refer to the datasheet of your LED strip to find the correct cable assignment. 
    * connect a USB power supply to the "BL better light" LED Controller with an USB-C cable:
        <p align="center">
        <img align="center" src="https://github.com/FairyTaleLABs/BL-Better-Light-Ctrl/assets/76262830/0af45f8e-ff0c-4aeb-bfd0-d268da5a00af" width="40%" height="40%"> 
        </p>
-
        * You can use every commercially available power supply unit with at least 2A of current. If you use a power supply unit with less than 2A, color deviations may occur on the LED strip or not all LEDs will light up.
 ***
 ### 5. Connect to WiFi:
@@ -123,12 +115,10 @@ When the printer is switched off, the LED lighting also switches off and therefo
        <p align="center">
        <img align="center" src="https://github.com/FairyTaleLABs/BL-Better-Light-Ctrl/assets/76262830/c101a7ed-04a5-4839-b0e7-54f150d3ccf0" width="40%" height="40%"> 
        </p>
-       
    * click on CONFIGURE WIFI, the following page should now open:
        <p align="center">
        <img align="center" src="https://github.com/FairyTaleLABs/BL-Better-Light-Ctrl/assets/76262830/e03c6f6c-ab89-4fd9-9d8b-40f99dc4dc8e" width="40%" height="40%"> 
        </p>
-
    * click on the WiFi network you want to connect to or type in the SSID manually, it has to be the same network which your 3D printer is connected with
    * type in your WiFi password credentials
    * click on SAVE
@@ -145,7 +135,6 @@ When the printer is switched off, the LED lighting also switches off and therefo
        <p align="center">
        <img align="center" src="https://github.com/FairyTaleLABs/BL-Better-Light-Ctrl/assets/76262830/4586630b-f151-4bc3-96d2-374d5bf98f09" width="40%" height="40%"> 
        </p>
-       
    * you will need the information you noted in step 3 (Preliminaries)
    * type in the needed information for your 3D printer (IP address, access code, serial number)
    * also type in the type of your LED strip (color order, LED brightness in percent, amount of LED/pixel), refer to the datasheet of your LED strip to find the correct color order, if you set the wrong color order the colors will be wrong
@@ -181,11 +170,12 @@ When the printer is switched off, the LED lighting also switches off and therefo
        <p align="center">
        <img align="center" src="https://github.com/FairyTaleLABs/BL-Better-Light-Ctrl/assets/76262830/1a496ab9-ae3a-4f53-bae9-2ef3df2ba5b2" width="40%" height="40%">
        </p>
-
    * check the shown firmware version
    * download the latest version from https://github.com/FairyTaleLABs/BL-Better-Light-Ctrl/, you will find the firmware in the FIRMWARE folder, you need the .bin file named with firmware_x.xx_OTA.bin (x.xx stands for the firmware version)
    * click on "CHOOSE FILE" and open the .bin file you downloaded before
    * click on "UPDATE"
    * the controller will now update the firmware and reboot afterwards
+
+
 ...... 
 WORK IN PROGRESS
