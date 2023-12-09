@@ -186,7 +186,7 @@ Under normal circumstances, it is not necessary to (re)flash the firmware manual
    * install the needed CP210x driver, you will find the suitable driver for Windows or Mac OS also inside the FIRMWARE folder on https://github.com/FairyTaleLABs/BL-Better-Light-Ctrl/
    * in addition download the needed flash software (Windows only) inside the FIRMWARE folder on https://github.com/FairyTaleLABs/BL-Better-Light-Ctrl/, you can use other flash tools for ESP32 if you want
    * PLEASE NOTE: please use the internet search if you have problems to install the driver or with the use of the flash software
-   * connect the pcb board with a MICRO USB cable as shown in the picture below:
+   * only connect the PCB board with a MICRO USB cable as shown in the picture below. ATTENTION: DO NOT CONNECT THE USB-C CABLE AND THE MICRO-USB CABLE AT THE SAME TIME. IT WILL DESTROY YOUR PCB BOARD. ALSO DO NOT CONNECT YOUR LED-STRIP DURING THE FLASH PROCESS. ONYL USE THE MICRO-USB TO FLASH THE CONTROLLER.
        <p align="center">
        <img align="center" src="https://github.com/FairyTaleLABs/BL-Better-Light-Ctrl/assets/76262830/e9d3dd19-9c85-493e-b963-c94c59c8c54f" width="40%" height="40%">
        </p>
