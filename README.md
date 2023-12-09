@@ -172,6 +172,7 @@ When the printer is switched off, the LED lighting also switches off and therefo
        </p>
    * check the shown firmware version
    * download the latest version from https://github.com/FairyTaleLABs/BL-Better-Light-Ctrl/, you will find the firmware in the FIRMWARE folder, you need the .bin file named with firmware_x.xx_OTA.bin (x.xx stands for the firmware version)
+   * in the same folder you will also find the changelogs
    * click on "CHOOSE FILE" and open the .bin file you downloaded before
    * click on "UPDATE"
    * the controller will now update the firmware and reboot afterwards
