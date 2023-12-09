@@ -200,7 +200,7 @@ Under normal circumstances, it is not necessary to (re)flash the firmware manual
        <p align="center">
        <img align="center" src="https://github.com/FairyTaleLABs/BL-Better-Light-Ctrl/assets/76262830/68b77802-9011-4590-867a-3c4045b495a5" width="40%" height="40%">
        </p>
-   * after success disconnect the MICRO-USB cable and reassemble your "BL Better Light" LED controller
+   * after the flash process is successfully completed, disconnect the MICRO-USB cable and reassemble your "BL Better Light" LED controller
    * USE THE INTERNET SEARCH IF YOU HAVE ANY PROBLEMS WITH THE MANUAL FLASH PROCESS
 
 ...... 
