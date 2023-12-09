@@ -189,6 +189,7 @@ Under normal circumstances, it is not necessary to (re)flash the firmware manual
    * only connect the PCB board with a MICRO USB cable as shown in the picture below. ATTENTION: DO NOT CONNECT THE USB-C CABLE AND THE MICRO-USB CABLE AT THE SAME TIME. IT WILL DESTROY YOUR PCB BOARD. ALSO DO NOT CONNECT YOUR LED-STRIP DURING THE FLASH PROCESS. ONYL USE THE MICRO-USB TO FLASH THE CONTROLLER.
        <p align="center">
        <img align="center" src="https://github.com/FairyTaleLABs/BL-Better-Light-Ctrl/assets/76262830/e9d3dd19-9c85-493e-b963-c94c59c8c54f" width="40%" height="40%">
+       <img align="center" src="https://github.com/FairyTaleLABs/BL-Better-Light-Ctrl/assets/76262830/687b1bea-33c9-4889-9aa0-b63698d987b8" width="40%" height="40%">
        </p>
 
 ...... 
