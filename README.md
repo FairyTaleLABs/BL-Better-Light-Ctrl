@@ -20,9 +20,9 @@
 
 [5. Connect to WiFi](#5-connect-to-wifi)
 
-[6. set 3D printer data](#6-set-3d-printer-data)
+[6. Set 3D printer data](#6-set-3d-printer-data)
 
-[7. start-up](#7-start-up)
+[7. Start-up](#7-start-up)
 
 [8. Operating states](#8-operating-states)
 
