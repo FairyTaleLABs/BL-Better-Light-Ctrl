@@ -1,5 +1,5 @@
 # BL Better Light Ctrl
-## (INSTRUCTION ARE NOT YET COMPLETE,  WORK IN PROGRESS, STATE: 2023-12-08)
+## (INSTRUCTION ARE NOT YET COMPLETE,  WORK IN PROGRESS, STATE: 2023-12-09)
 <p align="center">
 <img align="center" src="https://github.com/FairyTaleLABs/BL-Better-Light-Ctrl/assets/76262830/9bfa1fce-3ea2-40f1-b9a7-e0c6704c8666" width="40%" height="40%"> 
 <img align="center" src="https://github.com/FairyTaleLABs/BL-Better-Light-Ctrl/assets/76262830/000cd657-9c07-48bb-b9d5-f1f4415afc8f" width="40%" height="40%"> 
@@ -26,7 +26,7 @@
 
 [8. Operating states](#8-operating-states)
 
-[9. Firmware update / manual flashing](#9-firmware-update-and-manual-flashing)
+[9. Firmware update OTA](#9-firmware-update-ota)
 
 ***
 ### 1. Functionality and intended use:
@@ -138,8 +138,8 @@ When the printer is switched off, the LED lighting also switches off and therefo
 ***
 ### 6. set 3D printer data
    * complete step 5 (Connect to WiFi)
-   * connect your "BL Better Light" LED controller with your power supply with an USB-C cable if it is not anymore
-   * the red led should light up
+   * connect your "BL Better Light" LED controller with your power supply with an USB-C cable if it is not anymore and with LED strip
+   * the red controller LED should light up
    * navigate to the website http://blbetterlightctrl.local/ (this will not working in Android) or alternative http://<ip-address-of-your-led-controller/ (e.g. http://192.168.1.55), refer to the manual of your router if you need help to find this IP address
    * the configuration page should appear:
        <p align="center">
@@ -155,8 +155,8 @@ When the printer is switched off, the LED lighting also switches off and therefo
 ***
 ### 7. start-up
    * complete step 5 (Connect to WiFi) and step 6 (set 3D printer data)
-   * connect your "BL Better Light" LED controller with your power supply with an USB-C cable if it is not anymore
-   * the red led should light up
+   * connect your "BL Better Light" LED controller with your power supply with an USB-C cable if it is not anymore and with your LED strip
+   * the red controller led should light up
    * The "BL Better Light" LED controller performs an initial light sequence when switched on, the sequence of colors is RED to GREEN to BLUE. If you see a different sequence, you have set an incorrect color order on the setup page. Go back to the setup page (under point 6) and set the correct color order of your LED strip.
    * After the initial LED sequence the blue LED at the "BL Better Light" LED controller should light up. If not you have set the wrong 3D printer credentials (IP address or access code or serial no) on the setup page. Go back to the setup page (under point 6), check and set the correct values for your 3D printer
 ***
@@ -174,6 +174,18 @@ When the printer is switched off, the LED lighting also switches off and therefo
        <img align="center" src="https://github.com/FairyTaleLABs/BL-Better-Light-Ctrl/assets/76262830/17c00433-0018-44ec-bb8f-f5c76a3ca8d3" width="30%" height="30%"> 
        </p>
 ***
-### 9. Firmware update and manual flashing
+### 9. Firmware update OTA
+   * complete step 5
+   * connect your "BL Better Light" LED controller with your power supply with an USB-C cable if it is not anymore
+   * navigate to the page http://blbetterlightctrl.local/update (this will not working in Android) or alternative http://<ip-address-of-your-led-controller/update (e.g. http://192.168.1.55/update)
+       <p align="center">
+       <img align="center" src="https://github.com/FairyTaleLABs/BL-Better-Light-Ctrl/assets/76262830/1a496ab9-ae3a-4f53-bae9-2ef3df2ba5b2" width="40%" height="40%">
+       </p>
+
+   * check the shown firmware version
+   * download the latest version from https://github.com/FairyTaleLABs/BL-Better-Light-Ctrl/, you will find the firmware in the FIRMWARE folder, you need the .bin file named with firmware_x.xx_OTA.bin (x.xx stands for the firmware version)
+   * click on "CHOOSE FILE" and open the .bin file you downloaded before
+   * click on "UPDATE"
+   * the controller will now update the firmware and reboot afterwards
 ...... 
 WORK IN PROGRESS
