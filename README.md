@@ -180,17 +180,28 @@ When the printer is switched off, the LED lighting also switches off and therefo
    * the controller will now update the firmware and reboot afterwards
 ***
 ### 10. Firmware update manual flash
-Under normal circumstances, it is not necessary to (re)flash the firmware manually. The controller is based on an ESP32. This means that you can of course also use and flash other programs. If, for whatever reason, you need to reflash the firmware, you can find the appropriate .bin file here: https://github.com/FairyTaleLABs/BL-Better-Light-Ctrl/ inside the FIRMWARE folder. You can also flash the .bin file to an ESP32 of your choice if you do not have or do not want to use the "BL Better Light" board. You need the .bin file named with firmware_x.xx_factory.bin (x.xx stands for the firmware version). Don't try to manualy (re)flash the other .bin file firmware_x.xx_OTA.bin. After that your "BL Better Light" LED controller will not boot up correctly. Only the firmware_x.xx_factory.bin has all additional information (partition, eeprom etc). After (re)flash you have to configure the "BL Better Light" Controller from beginning on. 
+Under normal circumstances, it is not necessary to (re)flash the firmware manually. The controller is based on an ESP32. This means that you can of course also use and flash other programs. If, for whatever reason, you need to reflash the firmware, you can find the appropriate .bin files here: https://github.com/FairyTaleLABs/BL-Better-Light-Ctrl/ inside the FIRMWARE folder. You can also flash the .bin file to an ESP32 of your choice if you do not have or do not want to use the "BL Better Light" board.
+   * download the following three files: firmware_x.xx_partitions.bin, firmware_x.xx_bootloader.bin, firmware_x.xx_OTA.bin#
    * disconnect every cables and plugs from your "BL Better Light" LED controller
    * open your "BL Better Light" LED controller and take out the PCB board
    * install the needed CP210x driver, you will find the suitable driver for Windows or Mac OS also inside the FIRMWARE folder on https://github.com/FairyTaleLABs/BL-Better-Light-Ctrl/
-   * in addition download the needed flash software (Windows only) inside the FIRMWARE folder on https://github.com/FairyTaleLABs/BL-Better-Light-Ctrl/, you can use other flash tools for ESP32 if you want
+   * in addition download the needed flash software (Windows only) inside the FIRMWARE folder on https://github.com/FairyTaleLABs/BL-Better-Light-Ctrl/, you can also use the esptool.py library for PYTHON if you want
    * PLEASE NOTE: please use the internet search if you have problems to install the driver or with the use of the flash software
    * only connect the PCB board with a MICRO USB cable as shown in the picture below. ATTENTION: DO NOT CONNECT THE USB-C CABLE AND THE MICRO-USB CABLE AT THE SAME TIME. IT WILL DESTROY YOUR PCB BOARD. ALSO DO NOT CONNECT YOUR LED-STRIP DURING THE FLASH PROCESS. ONYL USE THE MICRO-USB TO FLASH THE CONTROLLER.
        <p align="center">
        <img align="center" src="https://github.com/FairyTaleLABs/BL-Better-Light-Ctrl/assets/76262830/e9d3dd19-9c85-493e-b963-c94c59c8c54f" width="40%" height="40%">
        <img align="center" src="https://github.com/FairyTaleLABs/BL-Better-Light-Ctrl/assets/76262830/687b1bea-33c9-4889-9aa0-b63698d987b8" width="40%" height="40%">
        </p>
+   * start the flash software, select the COM port of the connected board and select an upload speed of 115200, click on ERASE to erase the flash memory. ATTENTION: THIS CANNOT BE UNDONE
+       <p align="center">
+       <img align="center" src="https://github.com/FairyTaleLABs/BL-Better-Light-Ctrl/assets/76262830/fcb2b331-24b4-422e-85fb-8240562dad98" width="40%" height="40%">
+       </p>
+   * adjust the settings like in the screenshot below and click on FLASH:
+       <p align="center">
+       <img align="center" src="https://github.com/FairyTaleLABs/BL-Better-Light-Ctrl/assets/76262830/68b77802-9011-4590-867a-3c4045b495a5" width="40%" height="40%">
+       </p>
+   * after success disconnect the MICRO-USB cable and reassemble your "BL Better Light" LED controller
+   * USE THE INTERNET SEARCH IF YOU HAVE ANY PROBLEMS WITH THE MANUAL FLASH PROCESS
 
 ...... 
 WORK IN PROGRESS
